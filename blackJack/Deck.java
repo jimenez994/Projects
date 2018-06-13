@@ -82,4 +82,79 @@ public class Deck {
     // this will remove the card from the comingFrom Deck
     comingFrom.removeCard(0);
   }
+
+  // this will return the size of deck
+  public int deckSize(){
+    return this.cards.size();
+  }
+
+  // used to move players deck or dealers to playing deck 
+  public Deck moveAllToDeck(Deck moveTo){
+    int thisDeckSize = this.cards.size();
+
+    // put cards into moTo deck
+    for(int i = 0; i < thisDeckSize; i++){
+      moveTo.addCard(this.getCard(i));
+    }
+    System.out.println(this.toString() + "got here 1*****");
+    
+    for(int i = 0; i< thisDeckSize; i++){
+      this.removeCard(0);
+    }
+    System.out.println(this.toString() + "got here *****");
+    return this;
+  }
+
+
+  // return total value of acrds in deck (palyers hand or dealer)
+  public int cardsValue(){
+    int totalValue = 0;
+
+    // to keep track how many  aces there are\
+    int aces = 0;
+
+    // for each card on the hand will is used a switch statement that acts a if statement to add the value of the cards on the on the total value
+    for(Card aCard : this.cards){
+      switch(aCard.getValue()){
+        case TWO: totalValue += 2; 
+        break;
+        case THREE: totalValue += 3; 
+        break;
+        case FOUR: totalValue += 4; 
+        break;
+        case FIVE: totalValue += 5; 
+        break;
+        case SIX: totalValue += 6; 
+        break;
+        case SEVEN: totalValue += 7; 
+        break;
+        case EIGHT: totalValue += 8; 
+        break;
+        case NINE: totalValue += 9; 
+        break;
+        case TEN: totalValue += 10; 
+        break;
+        case JACK: totalValue += 10; 
+        break;
+        case QUEEN: totalValue += 10; 
+        break;
+        case KING: totalValue += 10; 
+        break;
+        case ACE: aces += 1; 
+        break;
+      }
+    }
+
+    // an Ace can be 1 or 11 based on the hand we need to find of waht to do with then
+    // based on the total value of the hand is will be either 1 or 11
+    for(int i = 0; i < aces; i++){
+      if(totalValue > 10){
+        totalValue += 1;
+      }else{
+        totalValue += 11;
+      }
+    }
+    // return 
+    return totalValue;
+  }
 }
