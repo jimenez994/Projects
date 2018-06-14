@@ -27,7 +27,8 @@ public class Blackjack {
     while(playerMoney > 0){
       // play On! 
       // Take the players bet
-      System.out.println("You have $" + playerMoney + ", how much would you like to bet? \n");
+      System.out.println("You have $" + playerMoney + ", how much would you like to bet? \n Please provide your amount: \n");
+
 
       // place players input 
       double playerBet = userInput.nextDouble();
