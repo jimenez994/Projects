@@ -4,7 +4,7 @@ public class Blackjack {
   public static void main(String[] args){
 
     // welcome message
-    System.out.println("Welcome to Blackjack!");
+    System.out.println("\n --- Welcome to Blackjack! --- \n");
 
     // create our playing deck
     Deck playingDeck = new Deck();
@@ -27,7 +27,7 @@ public class Blackjack {
     while(playerMoney > 0){
       // play On! 
       // Take the players bet
-      System.out.println("You have $" + playerMoney + ", how much would you like to bet?");
+      System.out.println("You have $" + playerMoney + ", how much would you like to bet? \n");
 
       // place players input 
       double playerBet = userInput.nextDouble();
@@ -49,12 +49,12 @@ public class Blackjack {
 
       while(true){
         System.out.println("Your hand:");
-        System.out.println(playerDeck.toString());
+        System.out.println(playerDeck.toString() +"\n");
         // display player's hand
-        System.out.println("Your hand is value at: " + playerDeck.cardsValue());    
+        System.out.println("% Your hand is value at: " + playerDeck.cardsValue() + "\n");    
         
         // display dealer's hand
-        System.out.println("Dealer Hand: " + dealerDeck.getCard(0).toString() + " and [Hidden]");  
+        System.out.println("Dealer's hand: \n" + dealerDeck.getCard(0).toString() + "\n[Hidden] \n");  
         
         // What does the player want to do?
         System.out.println("Would you like to (1)Hit or (2)Stand?");    
@@ -69,7 +69,7 @@ public class Blackjack {
           System.out.println("You draw a:" + playerDeck.getCard(playerDeck.deckSize()-1).toString());
           // bust if > 21
           if(playerDeck.cardsValue() > 21){
-            System.out.println("Bust. Currrent value at: " + playerDeck.cardsValue());
+            System.out.println("# Bust. Currrent value at: " + playerDeck.cardsValue());
             // players losess money
             playerMoney -= playerBet;
             endRound = true;
@@ -77,7 +77,6 @@ public class Blackjack {
             break;
           }
         }
-        
         // player stands , inner while loop stops
         if(response == 2){
           break;
@@ -85,10 +84,10 @@ public class Blackjack {
       }
 
       // Reveal dealers cards
-      System.out.println("Dealer Cards: " + dealerDeck.toString());
+      System.out.println("Dealer Cards: " + dealerDeck.toString() +"\n");
       // see if the dealer has more point than player
       if((dealerDeck.cardsValue() > playerDeck.cardsValue()) && endRound == false){
-        System.out.println("Dealer beats you!");
+        System.out.println("# Dealer beats you!");
         // take players bet
         playerMoney -= playerBet;
         // and of the roud
@@ -102,26 +101,27 @@ public class Blackjack {
       }
 
       // display total value for dealer
-      System.out.println("Dealer's hand is value at: " + dealerDeck.cardsValue());
+      System.out.println("% Dealer's hand is value at: " + dealerDeck.cardsValue());
       // determine if dealer busted
       if((dealerDeck.cardsValue() > 21) && endRound == false){
-        System.out.println("Dealer bust! You win.");
+        System.out.println("******* Dealer bust! You win ********");
+        playerMoney += playerBet;        
         endRound = true;
       }
 
       // Determine if push
       if((playerDeck.cardsValue() == dealerDeck.cardsValue()) && endRound == false){
-        System.out.println("Push");
+        System.out.println("! Push");
         endRound = true;
       }
 
       // when player stands and the value of his cards is greater than dealers
       if((playerDeck.cardsValue() >  dealerDeck.cardsValue()) && endRound == false){
-        System.out.println("You win the hand!");
+        System.out.println("******* You win the hand! *******");
         playerMoney += playerBet;
         endRound = true;
       }else if(endRound == false){
-        System.out.println("You lose the hand.");
+        System.out.println("# You lose the hand.");
         playerMoney -= playerBet;
         endRound = true;
       }
@@ -129,11 +129,12 @@ public class Blackjack {
       // after the game move players and dealers deck to playingdeck
       // adding back the cards at the back of the playing deck
       playerDeck = playerDeck.moveAllToDeck(playingDeck);
-      dealerDeck = dealerDeck.moveAllToDeck(playerDeck);
+      dealerDeck = dealerDeck.moveAllToDeck(playingDeck);
       
       
 
       System.out.println("End of hand.");
+      System.out.println("-----------------------");      
     }
     // game is over
     System.out.println("Game over! You are out of money. :,( ");

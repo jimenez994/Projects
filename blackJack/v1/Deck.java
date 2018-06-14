@@ -95,13 +95,10 @@ public class Deck {
     // put cards into moTo deck
     for(int i = 0; i < thisDeckSize; i++){
       moveTo.addCard(this.getCard(i));
-    }
-    System.out.println(this.toString() + "got here 1*****");
-    
+    }    
     for(int i = 0; i< thisDeckSize; i++){
       this.removeCard(0);
     }
-    System.out.println(this.toString() + "got here *****");
     return this;
   }
 
