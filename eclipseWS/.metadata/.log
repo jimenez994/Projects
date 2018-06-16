@@ -6641,3 +6641,2199 @@ Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
 	... 27 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-16 02:54:29.300
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-16 04:42:42.248
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-16 04:42:42.492
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-16 06:28:48.864
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-16 06:28:48.917
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-16 08:21:26.487
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-16 08:21:26.590
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 08:57:17.969
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 08:58:15.269
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 08:59:23.926
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 12:35:29.137
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 12:38:00.264
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 12:38:56.534
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 12:39:47.839
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 12:40:32.111
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 12:44:19.629
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-06-16 12:45:10.190
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:443)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:432)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:127)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [JwtAuthenticationFilter] for bean with name 'jwtAuthenticationFilter'; nested exception is java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1385)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1484)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:425)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:395)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:389)
+	at org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DevToolsDataSourceCondition.getMatchOutcome(DevToolsDataSourceAutoConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: JwtAuthenticationFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:401)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
+	... 27 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-06-16 14:03:35.003
+!MESSAGE Exception occurred during problem detection:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.zeus.Polls.controller;
+
+import java.net.URI;
+import java.util.Collections;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import com.zeus.Polls.exception.AppException;
+import com.zeus.Polls.model.Role;
+import com.zeus.Polls.model.RoleName;
+import com.zeus.Polls.model.User;
+import com.zeus.Polls.payload.ApiResponse;
+import com.zeus.Polls.payload.JwtAuthenticationResponse;
+import com.zeus.Polls.payload.LoginRequest;
+import com.zeus.Polls.payload.SignUpRequest;
+import com.zeus.Polls.repository.RoleRepository;
+import com.zeus.Polls.repository.UserRepository;
+import com.zeus.Polls.security.JwtTokenProvider;
+
+@RestController
+@RequestMapping("/api/auth")
+public class AuthController {
+	@Autowired
+    AuthenticationManager authenticationManager;
+
+    @Autowired
+    UserRepository userRepository;
+
+    @Autowired
+    RoleRepository roleRepository;
+
+    @Autowired
+    PasswordEncoder passwordEncoder;
+
+    @Autowired
+    JwtTokenProvider tokenProvider;
+    
+    @PostMapping("/signin")
+    public ResponseEntity<?> authenticationUser(@Valid @RequestBody LoginRequest loginRequest){
+    	
+    	Authentication authentication = authenticationManager.authenticate(
+    			new UsernamePasswordAuthenticationToken(
+    					loginRequest.getUsernameOrEmail(),
+    					loginRequest.getPassword()
+    			)
+    	);
+    	
+    	SecurityContextHolder.getContext().setAuthentication(authentication);
+    	
+    	String jwt = tokenProvider.generateToken(authentication);
+    	return ResponseEntity.ok(new JwtAuthenticationResponse(jwt));
+    }
+    
+    @PostMapping("/signup")
+    public ResponseEntity<?> registerUser(@Valid @RequestBody SignUpRequest signUpRequest){
+    	
+    	 if(userRepository.existsByUsername(signUpRequest.getUsername())) {
+             return new ResponseEntity(new ApiResponse(false, "Username is already taken!"),
+                     HttpStatus.BAD_REQUEST);
+         }
+
+         if(userRepository.existsByEmail(signUpRequest.getEmail())) {
+             return new ResponseEntity(new ApiResponse(false, "Email Address already in use!"),
+                     HttpStatus.BAD_REQUEST);
+         }
+         
+//         Creating user's account
+         User user = new User(signUpRequest.getName(), signUpRequest.getUsername(), signUpRequest.getEmail(), signUpRequest.getPassword());
+         
+         user.setPassword(passwordEncoder.encode(user.getPassword()));
+
+         Role userRole = roleRepository.findByName(RoleName.ROLE_USER)
+                 .orElseThrow(() -> roleRepository.save());
+
+         user.setRoles(Collections.singleton(userRole));
+
+         User result = userRepository.save(user);
+
+         URI location = ServletUriComponentsBuilder
+                 .fromCurrentContextPath().path("/users/{username}")
+                 .buildAndExpand(result.getUsername()).toUri();
+
+         return ResponseEntity.created(location).body(new ApiResponse(true, "User registered successfully"));
+     }
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2018-06-16 14:03:35.070
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 1
+Java Model Exception: java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:254)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	... 23 more
+Caused by: java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2018-06-16 14:03:35.071
+!MESSAGE no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2018-06-16 14:03:35.072
+!MESSAGE no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2018-06-16 14:03:35.072
+!MESSAGE Error in JDT Core during reconcile
+!STACK 1
+Java Model Exception: java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:254)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	... 23 more
+Caused by: java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2018-06-16 14:03:35.073
+!MESSAGE no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process_aroundBody0(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder$AjcClosure1.run(CompilationUnitProblemFinder.java:1)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765proceed(ITDAwarenessAspect.aj:231)
+	at org.eclipse.contribution.jdt.itdawareness.ITDAwarenessAspect.ajc$around$org_eclipse_contribution_jdt_itdawareness_ITDAwarenessAspect$4$8b05d765(ITDAwarenessAspect.aj:244)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:177)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2018-06-16 14:03:35.115
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1213)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1208)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:823)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:546)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:538)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:481)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:173)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:158)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2018-06-16 14:03:35.117
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [public class java.lang.Throwable
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] long serialVersionUID
+private transient [unresolved] java.lang.Object backtrace
+private [unresolved] Unresolved type java.lang.String detailMessage
+private static final [unresolved] Unresolved type java.lang.StackTraceElement[] UNASSIGNED_STACK
+private [unresolved] java.lang.Throwable cause
+private [unresolved] Unresolved type java.lang.StackTraceElement[] stackTrace
+private static final [unresolved] Unresolved type java.util.List<java.lang.Throwable> SUPPRESSED_SENTINEL
+private [unresolved] Unresolved type java.util.List<java.lang.Throwable> suppressedExceptions
+private static final [unresolved] Unresolved type java.lang.String NULL_CAUSE_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String SELF_SUPPRESSION_MESSAGE
+private static final [unresolved] Unresolved type java.lang.String CAUSE_CAPTION
+private static final [unresolved] Unresolved type java.lang.String SUPPRESSED_CAPTION
+private static final [unresolved] java.lang.Throwable[] EMPTY_THROWABLE_ARRAY
+static final [unresolved] boolean $assertionsDisabled
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, java.lang.Throwable) 
+[unresolved] public void <init>(java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, java.lang.Throwable, boolean, boolean) 
+[unresolved] public Unresolved type java.lang.String getMessage() 
+[unresolved] public Unresolved type java.lang.String getLocalizedMessage() 
+[unresolved] public synchronized java.lang.Throwable getCause() 
+[unresolved] public synchronized java.lang.Throwable initCause(java.lang.Throwable) 
+[unresolved] public Unresolved type java.lang.String toString() 
+[unresolved] public void printStackTrace() 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintStream) 
+[unresolved] private void printStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter) 
+[unresolved] private void printEnclosedStackTrace(Unresolved type java.lang.Throwable$PrintStreamOrWriter, Unresolved type java.lang.StackTraceElement[], Unresolved type java.lang.String, Unresolved type java.lang.String, Unresolved type java.util.Set<java.lang.Throwable>) 
+[unresolved] public void printStackTrace(Unresolved type java.io.PrintWriter) 
+[unresolved] public synchronized java.lang.Throwable fillInStackTrace() 
+[unresolved] private native java.lang.Throwable fillInStackTrace(int) 
+[unresolved] public Unresolved type java.lang.StackTraceElement[] getStackTrace() 
+[unresolved] private synchronized Unresolved type java.lang.StackTraceElement[] getOurStackTrace() 
+[unresolved] public void setStackTrace(Unresolved type java.lang.StackTraceElement[]) 
+[unresolved] native int getStackTraceDepth() 
+[unresolved] native Unresolved type java.lang.StackTraceElement getStackTraceElement(int) 
+[unresolved] private void readObject(Unresolved type java.io.ObjectInputStream) throws Unresolved type java.io.IOException, Unresolved type java.lang.ClassNotFoundException
+[unresolved] private synchronized void writeObject(Unresolved type java.io.ObjectOutputStream) throws Unresolved type java.io.IOException
+[unresolved] public final synchronized void addSuppressed(java.lang.Throwable) 
+[unresolved] public final synchronized java.lang.Throwable[] getSuppressed() 
+/*   members   */
+Unresolved type java.lang.Throwable$WrappedPrintWriter
+Unresolved type java.lang.Throwable$WrappedPrintStream
+Unresolved type java.lang.Throwable$PrintStreamOrWriter
+Unresolved type java.lang.Throwable$SentinelHolder
+
+
+, public class java.lang.RuntimeException
+	extends java.lang.Exception
+/*   fields   */
+static final [unresolved] long serialVersionUID
+/*   methods   */
+[unresolved] public void <init>() 
+[unresolved] public void <init>(Unresolved type java.lang.String) 
+[unresolved] public void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable) 
+[unresolved] public void <init>(Unresolved type java.lang.Throwable) 
+[unresolved] protected void <init>(Unresolved type java.lang.String, Unresolved type java.lang.Throwable, boolean, boolean) 
+
+
+, <T extends java.lang.Object>]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:244)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at lombok.eclipse.agent.PatchVal.skipResolveInitializerIfAlreadyCalled2(PatchVal.java:74)
+	at sun.reflect.GeneratedMethodAccessor146.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:115)
+	at lombok.launch.PatchFixesHider$Val.skipResolveInitializerIfAlreadyCalled2(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:360)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1218)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1331)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1213)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1208)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:823)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:546)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:538)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:481)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:173)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:158)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
