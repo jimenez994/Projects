@@ -3,6 +3,8 @@
 <aop-project name="rcode"/>
 <aop-project name="Portfolio"/>
 <aop-project name="DevC"/>
+<aop-project name="Polls"/>
+<aop-project name="polling-app-server"/>
 <aop-project name="spring_react-master"/>
 <aop-project name="Cards"/>
 </aop-reference-model>
