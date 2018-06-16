@@ -23,8 +23,8 @@ import com.zeus.Polls.model.audit.DateAudit;
 
 import lombok.Data;
 
+
 @Entity
-@Data
 @Table(name = "users", uniqueConstraints = {
 		@UniqueConstraint(columnNames = {
 				"username"
@@ -33,6 +33,7 @@ import lombok.Data;
 				"email"
 		})
 })
+@Data
 public class User extends DateAudit {
 	
 	@Id

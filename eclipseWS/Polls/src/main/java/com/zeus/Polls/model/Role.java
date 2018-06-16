@@ -14,8 +14,8 @@ import org.hibernate.annotations.NaturalId;
 import lombok.Data;
 
 @Entity
-@Data
 @Table(name = "roles")
+@Data
 public class Role {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
