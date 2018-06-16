@@ -15,13 +15,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.Data;
 
-@Data
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(
         value = {"createdAt", "updatedAt"},
         allowGetters = true
 )
+@Data
 public abstract class DateAudit implements Serializable {
 	
 	@CreatedDate
