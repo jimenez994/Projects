@@ -2,7 +2,7 @@
 <typeInfoHistroy>
 <typeInfo handle="=DevC/\/Users\/Admin\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/1.11.12.RELEASE\/spring-data-jpa-1.11.12.RELEASE.jar&lt;org.springframework.data.jpa.repository.support(CrudMethodMetadata.class[CrudMethodMetadata" modifiers="1537" timestamp="1526147840000"/>
 <typeInfo handle="=DevC/\/Users\/Admin\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/1.13.12.RELEASE\/spring-data-commons-1.13.12.RELEASE.jar&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1526147840000"/>
-<typeInfo handle="=Polls/\/Users\/Admin\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.0.8.RELEASE\/spring-data-jpa-2.0.8.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1529089031000"/>
 <typeInfo handle="=Polls/\/Users\/Admin\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.0.6.RELEASE\/spring-security-core-5.0.6.RELEASE.jar&lt;org.springframework.security.core.userdetails(UserDetails.class[UserDetails" modifiers="1537" timestamp="1529089037000"/>
 <typeInfo handle="=Polls/\/Users\/Admin\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-core\/8.5.31\/tomcat-embed-core-8.5.31.jar&lt;org.apache.catalina(UserDatabase.class[UserDatabase" modifiers="1537" timestamp="1526147844000"/>
+<typeInfo handle="=Polls/\/Users\/Admin\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.0.8.RELEASE\/spring-data-jpa-2.0.8.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1529089031000"/>
 </typeInfoHistroy>
