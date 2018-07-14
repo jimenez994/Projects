@@ -20,6 +20,7 @@ public class CustomDetailsService implements UserDetailsService {
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		UserModel userModel = userDAO.findByUsername(username);
 		CustomUser customUser = new CustomUser(userModel);
+		System.out.println(userModel);
 		return customUser;
 	}
 
