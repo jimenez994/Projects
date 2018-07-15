@@ -28,13 +28,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		return new BCryptPasswordEncoder();
 	}
 	
-//	@Override
-//	@Autowired
-//	protected void configure(AuthenticationManagerBuilder auth) throws Exception{
-//		auth.userDetailsService(customDetailsService).passwordEncoder(encoder());
-//        System.out.println("Done...finito");
-//
-//	}
+	@Override
+	@Autowired
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception{
+		auth.userDetailsService(customDetailsService).passwordEncoder(encoder());
+        System.out.println("Done...finito");
+
+	}
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {

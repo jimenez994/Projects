@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
 	
 	private String clientId = "zeus";
-	private String clientSecret = "my-secret";
+	private String clientSecret = "$2a$04$e/c1/RfsWuThaWFCrcCuJeoyvwCV0URN/6Pn9ZFlrtIWaU/vj/BfG";
 	private String privateKey = "-----BEGIN RSA PRIVATE KEY-----\n" + 
 			"MIIEpAIBAAKCAQEAxZLrU8szCpln2QbcC2ehCtniG57+mq3QZF2Y/X/hW+uQ25yM\n" + 
 			"3IEH4wUHAVZBoeGHoUR3VY9yHO1esVVyz2F9adDJQAeO6RKTqxgxa8iNcSutnvi/\n" + 
