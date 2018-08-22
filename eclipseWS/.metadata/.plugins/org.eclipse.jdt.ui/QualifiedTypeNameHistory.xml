@@ -44,7 +44,6 @@
 <fullyQualifiedTypeName name="java.util.function.Function"/>
 <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
 <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="ch.qos.logback.core.util.Duration"/>
@@ -54,4 +53,9 @@
 <fullyQualifiedTypeName name="com.zeus.Polls.security.UserPrincipal"/>
 <fullyQualifiedTypeName name="com.zeus.Polls.model.Poll"/>
 <fullyQualifiedTypeName name="com.zeus.Polls.service.PollService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.springframework.web.filter.CorsFilter"/>
+<fullyQualifiedTypeName name="org.springframework.web.cors.UrlBasedCorsConfigurationSource"/>
+<fullyQualifiedTypeName name="com.zeus.LLogin.model.User"/>
 </qualifiedTypeNameHistroy>

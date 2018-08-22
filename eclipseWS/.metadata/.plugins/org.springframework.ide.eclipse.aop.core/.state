@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="rcode"/>
+<aop-project name="proBolivia"/>
 <aop-project name="Portfolio"/>
-<aop-project name="DevC"/>
 <aop-project name="Polls"/>
-<aop-project name="polling-app-server"/>
-<aop-project name="spring_react-master"/>
+<aop-project name="rcode"/>
+<aop-project name="spring-oauth2-facebook-google-linkedIn-twitter-master"/>
+<aop-project name="LoginGF"/>
+<aop-project name="LLogin"/>
+<aop-project name="DevC"/>
+<aop-project name="spring-security-jwt-master"/>
+<aop-project name="spring-boot-security-oauth2-jwt-example"/>
+<aop-project name="Classroom"/>
 <aop-project name="Cards"/>
 </aop-reference-model>

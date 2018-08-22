@@ -5,4 +5,10 @@
 		<item value="/Users/Admin/Desktop/codingdojo/Java/Spring/rcode"/>
 		<item value="/Users/Admin/Desktop/codingdojo/projects/DevC2/DevC"/>
 	</list>
+	<section name="NewWizardAction">
+		<item value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+		</list>
+	</section>
 </section>
