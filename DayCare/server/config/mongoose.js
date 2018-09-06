@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 const fs = require('fs');
 
-mongoose.connect("mongodb://localhost/daycare1", { useNewUrlParser: true });
+mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds247852.mlab.com:47852/daycare", {
+  useNewUrlParser: true
+});
 mongoose.Promise = global.Promise;
 
 var models_path = __dirname + "/../models";
