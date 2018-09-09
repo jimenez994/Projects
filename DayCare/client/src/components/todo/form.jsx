@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Item from './list';
+import List from './list';
 
 class Form extends Component {
   constructor(props) {
     super(props);
     this.state = { 
       items: [], 
-      
       task:"",
       description:""
     }
@@ -25,7 +24,7 @@ class Form extends Component {
   render() {
     return (
       <div>
-        <Item items={ this.state.items }/>
+        <List items={ this.state.items }/>
         <form onSubmit={this.handleSubmit}>
           <input type="text" name="task" onChange={this.handleChange} value={this.state.task} /><br/>
           <button>Submit</button>
