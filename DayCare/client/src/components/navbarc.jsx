@@ -1,15 +1,42 @@
-import React from 'react';
-import { Navbar, NavItem } from 'react-materialize';
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
 
-const NavbarC = () => {
-  return (
-    <div>
-      <Navbar brand='logo' right>
-        <NavItem onClick={() => console.log('test click')}>Getting   started</NavItem>
-        <NavItem href='components.html'>Components</NavItem>
-      </Navbar>
-    </div>
-  );
+const styles = {
+  root: {
+    flexGrow: 1
+  },
+  grow: {
+    flexGrow: 1
+  },
+  menuButton: {
+    marginLeft: -12,
+    marginRight: 20
+  }
 };
 
-export default NavbarC;
+function Navbarc(props) {
+  const { classes } = props;
+  return (
+    <div className={classes.root}>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="title" color="inherit" className={classes.grow}>
+            News
+          </Typography>
+          <Button color="inherit">Login</Button>
+        </Toolbar>
+      </AppBar>
+    </div>
+  );
+}
+
+Navbarc.propTypes = {
+  classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(Navbarc);
