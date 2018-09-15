@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import List from './list';
+import GridContainer from "../../components/Grid/GridContainer"
 
 class Form extends Component {
   constructor(props) {
@@ -22,15 +23,16 @@ class Form extends Component {
     this.setState({[event.target.name] : event.target.value})
   }
   render() {
-    return (
-      <div>
-        <List items={ this.state.items }/>
-        <form onSubmit={this.handleSubmit}>
-          <input type="text" name="task" onChange={this.handleChange} value={this.state.task} /><br/>
-          <button>Submit</button>
-        </form>
-      </div>
-    );
+    return <div>
+        <GridContainer justify="center">
+          <List items={this.state.items} />
+          <form onSubmit={this.handleSubmit}>
+            <input type="text" name="task" onChange={this.handleChange} value={this.state.task} />
+            <br />
+            <button>Submit</button>
+          </form>
+        </GridContainer>
+      </div>;
   }
 }
 

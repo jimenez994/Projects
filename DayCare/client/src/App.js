@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Seconds from "./components/seconds";
-import List from './components/todo/form';
+import Seconds from "./views/seconds";
+import List from './views/todo/form';
 import Navbar from './components/navbarc';
 
 class App extends Component {
