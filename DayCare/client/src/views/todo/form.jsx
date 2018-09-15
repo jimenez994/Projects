@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import List from './list';
 import GridContainer from "../../components/Grid/GridContainer"
+import Card from '@material-ui/core/Card'
+import CardContent from "@material-ui/core/CardContent";
+import Button from "@material-ui/core/Button"
 
 class Form extends Component {
   constructor(props) {
@@ -25,12 +28,16 @@ class Form extends Component {
   render() {
     return <div>
         <GridContainer justify="center">
-          <List items={this.state.items} />
-          <form onSubmit={this.handleSubmit}>
-            <input type="text" name="task" onChange={this.handleChange} value={this.state.task} />
-            <br />
-            <button>Submit</button>
-          </form>
+          <Card  color="rose">
+            <form onSubmit={this.handleSubmit}>
+              <input type="text" name="task" onChange={this.handleChange} value={this.state.task} />
+              <br />
+              <Button color="primary" size="small">Submit </Button>
+            </form>
+            <CardContent color="primary ">
+              <List items={this.state.items} />
+            </CardContent>
+          </Card>
         </GridContainer>
       </div>;
   }

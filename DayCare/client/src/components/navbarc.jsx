@@ -23,7 +23,7 @@ function Navbarc(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" color="primary">
         <Toolbar>
           <Typography variant="title" color="inherit" className={classes.grow}>
             News
